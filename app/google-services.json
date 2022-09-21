@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "219439105022",
+    "firebase_url": "https://yasamkocum2-45f38.firebaseio.com",
+    "project_id": "yasamkocum2-45f38",
+    "storage_bucket": "yasamkocum2-45f38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219439105022:android:0b5122c0e0b133b5f376af",
+        "android_client_info": {
+          "package_name": "com.example.yasamkocum2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219439105022-7r21ots04rf0phhqqqsuudtcdtsj1sri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_RZBojqwuT91b6zMVJBSXvvdGd66lqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219439105022-7r21ots04rf0phhqqqsuudtcdtsj1sri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

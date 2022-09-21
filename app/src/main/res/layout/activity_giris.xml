@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivity"
+    >
+
+
+            <ImageView
+                android:id="@+id/giris_resmi"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true">
+            </ImageView>
+
+
+            <EditText
+                android:id="@+id/kullaniciAdiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/giris_resmi"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/girdiler"
+                android:hint="Kullanıcı Adı Girin"
+                android:padding="3dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                />
+
+            <Button
+                android:id="@+id/kayitOlButton"
+                android:layout_below="@+id/kullaniciAdiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:text="Giriş Yap"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"
+                android:textAllCaps="false"
+                android:textColor="#323F2D"
+                android:textSize="15dp"
+                android:background="@color/colorPrimaryy">
+
+            </Button>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
